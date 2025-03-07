@@ -62,4 +62,7 @@ For the bounded-length (multi-step) planner (e.g., with 3 actions):
 ```bash
 python plan.py --map ./maps/obs_20_1.txt --k 3
 ```
+Output:
+![Planner Output](output.png)
+
 
