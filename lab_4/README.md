@@ -53,6 +53,11 @@ For the single-step planner:
 ```bash
 python single_plan.py --map ./maps/first.txt
 ```
+Output: 
+```bash
+Found path: [(Fraction(1, 1), Fraction(3, 1)), (Fraction(1, 1), Fraction(5, 1))]
+```
+
 For the bounded-length (multi-step) planner (e.g., with 3 actions):
 ```bash
 python plan.py --map ./maps/obs_20_1.txt --k 3
